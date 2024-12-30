@@ -1,0 +1,83 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Title Styles */
+h1 {
+  color: #333;
+}
+
+/* Hangman Styles */
+.hangman {
+  margin: 20px 0;
+}
+
+/* Word Display Styles */
+.word-display {
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+
+/* Keyboard Styles */
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.keyboard button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.keyboard button:hover {
+  background-color: #0056b3;
+}
+
+/* Message Styles */
+.message {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #d9534f; /* Bootstrap danger color */
+}
+
+/* Restart Button Styles */
+.restart-button {
+  background-color: #28a745; /* Bootstrap success color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+  background-color: #218838;
+}
